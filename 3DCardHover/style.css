@@ -14,7 +14,8 @@ body
     align-items: center;
     min-height: 100vh;
 }
-section
+
+.hover
 {
     display: flex;
     justify-content: center;
@@ -23,7 +24,7 @@ section
     transform-style: preserve-3d;
     width: 1100px;
 }
-section .card
+.hover .card1
 {
     position: relative;
     width: 320px;
@@ -32,7 +33,7 @@ section .card
     transform-style: preserve-3d;
     perspective: 1000px;
 }
-section .card .box
+.hover .card1 .box1
 {
     position: absolute;
     top: 0;
@@ -43,13 +44,13 @@ section .card .box
     transition: 1s ease;
 }
 
-section .card:hover .box
+.hover .card1:hover .box1
 {
     transform: rotateY(180deg);
 }
 
 
-section .card .box .imgBx
+.hover .card1 .box1 .imgBx
 {
     position: absolute;
     top: 0;
@@ -57,7 +58,7 @@ section .card .box .imgBx
     width: 100%;
     height: 100%;
 }
-section .card .box .imgBx img
+.hover .card1 .box1 .imgBx img
 {
     position: absolute;
     top: 0;
@@ -66,7 +67,7 @@ section .card .box .imgBx img
     height: 100%;
     object-fit: cover;
 }
-section .card .box .contentBx
+.hover .card1 .box1 .contentBx1
 {
     position: absolute;
     top: 0;
@@ -81,20 +82,20 @@ section .card .box .contentBx
     transform-style: preserve-3d;
     transform: rotateY(180deg);
 }
-section .card .box .contentBx div
+.hover .card1 .box1 .contentBx1 div
 {
     transform-style: preserve-3d;
     padding: 20px;
     background: linear-gradient(45deg, #fe0061, #ffeb3b);
     transform: translateZ(100px);
 }
-section .card .box .contentBx div h2
+.hover .card1 .box1 .contentBx1 div h2
 {
     color: #fff;
     font-size: 20px;
     letter-spacing: 1px;
 }
-section .card .box .contentBx div p
+.hover .card1 .box1 .contentBx1 div p
 {
     color: #fff;
     font-size: 15px;
