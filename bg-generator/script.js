@@ -10,7 +10,7 @@ function setGradient() {
         + color2.value
         + ")";
 
-        css.textContent = body.style.background + ";";
+        css.textContent = body.style.background + ";"; //adds the css text to h3
 }
 
 /* color1.addEventListener("input", () => {
