@@ -14,3 +14,15 @@ const katsetus = document.querySelector("#innertextvstextcontent");
 // textContent vs innerText
 console.log(katsetus.textContent);
 console.log(katsetus.innerText);
+
+const katsetusid = katsetus.getAttribute("id");
+
+const proov = "Div-i id on " + katsetusid;
+
+console.log(proov);
+
+const katsetusid2 = katsetus.setAttribute("id", "Test");
+
+console.log(katsetusid2.getAttribute("id"));
+
+console.log(katsetus.getAttribute("id"));
