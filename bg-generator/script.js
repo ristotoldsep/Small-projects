@@ -4,7 +4,7 @@ var css = document.querySelector("h3"),
     body = document.getElementById("gradient");
 
 function setGradient() {
-    body.style.background = "linear-gradient(to right, "
+    body.style.background = "radial-gradient( "
         + color1.value
         + ", "
         + color2.value
